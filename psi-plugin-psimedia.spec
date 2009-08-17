@@ -2,7 +2,7 @@
 Summary:	Audio and Video plugin for PSI
 Name:		psi-plugin-psimedia
 Version:	1.0.3
-Release:	1
+Release:	2
 License:	LGPL v2.1+
 Group:		Applications/Communications
 Source0:	http://delta.affinix.com/download/psimedia/psimedia-%{version}.tar.bz2
