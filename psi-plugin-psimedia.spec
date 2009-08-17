@@ -19,6 +19,7 @@ Requires:	gstreamer-audiosink-alsa
 Requires:	gstreamer-plugins-base
 Requires:	gstreamer-plugins-good
 Requires:	gstreamer-speex
+Requires:	gstreamer-theora
 Requires:	gstreamer-video-effects
 Requires:	psi >= 0.13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
