@@ -14,8 +14,12 @@ BuildRequires:	gstreamer-plugins-base-devel
 BuildRequires:	liboil-devel
 BuildRequires:	speex-devel
 Requires:	gstreamer-audio-effects-base
+Requires:	gstreamer-audio-effects-good
 Requires:	gstreamer-audiosink-alsa
 Requires:	gstreamer-plugins-base
+Requires:	gstreamer-plugins-good
+Requires:	gstreamer-speex
+Requires:	gstreamer-video-effects
 Requires:	psi >= 0.13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
