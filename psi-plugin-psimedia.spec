@@ -6,7 +6,7 @@ Release:	1
 License:	LGPL v2.1+
 Group:		Applications/Communications
 Source0:	http://delta.affinix.com/download/psimedia/psimedia-%{version}.tar.bz2
-# Source0-md5:	ddc1a2a35dc155ca46ad6ecaeccdf894
+# Source0-md5:	1be71c37d71c655ffc2c53cf86c77a7a
 URL:		http://delta.affinix.com/psimedia/
 BuildRequires:	QtCore-devel >= 4.5.0
 BuildRequires:	glib2-devel
