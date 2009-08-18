@@ -2,7 +2,7 @@
 Summary:	Audio and Video plugin for PSI
 Name:		psi-plugin-psimedia
 Version:	1.0.3
-Release:	2
+Release:	3
 License:	LGPL v2.1+
 Group:		Applications/Communications
 Source0:	http://delta.affinix.com/download/psimedia/psimedia-%{version}.tar.bz2
@@ -21,6 +21,7 @@ Requires:	gstreamer-plugins-good
 Requires:	gstreamer-speex
 Requires:	gstreamer-theora
 Requires:	gstreamer-video-effects
+Requires:	gstreamer-vorbis
 Requires:	psi >= 0.13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
