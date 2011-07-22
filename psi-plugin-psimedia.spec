@@ -2,11 +2,13 @@
 Summary:	Audio and Video plugin for PSI
 Name:		psi-plugin-psimedia
 Version:	1.0.3
-Release:	3
+Release:	4
 License:	LGPL v2.1+
 Group:		Applications/Communications
 Source0:	http://delta.affinix.com/download/psimedia/psimedia-%{version}.tar.bz2
 # Source0-md5:	1be71c37d71c655ffc2c53cf86c77a7a
+Patch0:		%{orgname}-2.6.38.patch
+Patch1:		%{orgname}-drop-v4l.patch
 URL:		http://delta.affinix.com/psimedia/
 BuildRequires:	QtCore-devel >= 4.5.0
 BuildRequires:	QtGui-devel
@@ -37,6 +39,8 @@ RTP services to Psi-like IM clients.
 
 %prep
 %setup -q -n %{orgname}-%{version}
+%patch0 -p1
+%patch1 -p1
 
 %build
 ./configure
