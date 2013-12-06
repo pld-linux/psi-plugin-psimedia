@@ -1,0 +1,44 @@
+--- psimedia-1.0.3/gstprovider/gstelements/static/gstelements.h~	2009-01-16 22:59:25.000000000 +0100
++++ psimedia-1.0.3/gstprovider/gstelements/static/gstelements.h	2013-12-06 21:42:54.505988972 +0100
+@@ -21,7 +21,7 @@
+ #ifndef PSI_GSTELEMENTS_H
+ #define PSI_GSTELEMENTS_H
+ 
+-#include <glib/gmacros.h>
++#include <glib.h>
+ 
+ G_BEGIN_DECLS
+ 
+--- psimedia-1.0.3/gstprovider/gstcustomelements/gstcustomelements.h~	2009-01-16 19:09:25.000000000 +0100
++++ psimedia-1.0.3/gstprovider/gstcustomelements/gstcustomelements.h	2013-12-06 21:44:19.319321691 +0100
+@@ -21,7 +21,7 @@
+ #ifndef GSTCUSTOMELEMENTS_H
+ #define GSTCUSTOMELEMENTS_H
+ 
+-#include <glib/gthread.h>
++#include <glib.h>
+ #include <gst/gst.h>
+ #include <gst/base/gstpushsrc.h>
+ #include <gst/video/video.h>
+--- psimedia-1.0.3/gstprovider/rwcontrol.h~	2009-02-17 01:20:50.000000000 +0100
++++ psimedia-1.0.3/gstprovider/rwcontrol.h	2013-12-06 21:44:59.352654735 +0100
+@@ -28,7 +28,7 @@
+ #include <QMutex>
+ #include <QWaitCondition>
+ #include <QTimer>
+-#include <glib/gmain.h>
++#include <glib.h>
+ #include "psimediaprovider.h"
+ #include "rtpworker.h"
+ 
+--- psimedia-1.0.3/gstprovider/gstthread.h~	2008-11-25 04:56:15.000000000 +0100
++++ psimedia-1.0.3/gstprovider/gstthread.h	2013-12-06 21:45:12.959321303 +0100
+@@ -22,7 +22,7 @@
+ #define PSI_GSTTHREAD_H
+ 
+ #include <QThread>
+-#include <glib/gmain.h>
++#include <glib.h>
+ 
+ namespace PsiMedia {
+ 
