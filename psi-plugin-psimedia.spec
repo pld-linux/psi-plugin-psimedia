@@ -21,6 +21,7 @@ BuildRequires:	pkgconfig
 BuildRequires:	qt4-qmake
 BuildRequires:	qt4-build
 BuildRequires:	speex-devel
+BuildRequires:	speexdsp-devel
 BuildRequires:	which
 Requires:	gstreamer-audio-effects-base
 Requires:	gstreamer-audio-effects-good
